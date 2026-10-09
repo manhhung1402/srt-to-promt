@@ -70,7 +70,7 @@ Tất cả nằm trong `data/` và **không có trong git** (đã khai trong `.g
 | `data/runtime/` | Whisper runtime + model |
 | `data/log_*.txt`, `*.log` | Log |
 
-Xoá thư mục `data/` không làm hỏng tool — app tự tạo lại khi khởi động. **Không** commit thư mục này: nó chứa API key và phiên đăng nhập của chính bạn.
+Xoá thư mục `data/` không làm hỏng tool — app tự tạo lại khi khởi động. 
 
 ---
 
