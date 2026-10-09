@@ -1,0 +1,32 @@
+# ---- Du lieu sinh luc chay (KHONG push - chua khoa API + duong dan ca nhan) ----
+data/
+!data/.gitkeep
+
+# Chrome profile: cookies, Login Data, History
+chrome_profile_tool/
+
+# Whisper runtime + model (user tu tai)
+runtime/
+data/runtime/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- PyInstaller ----
+*.manifest
+*.spec.bak
+
+# ---- Logs ----
+*.log
+log_*.txt
+log_error.txt
+
+# ---- OS ----
+Thumbs.db
+.DS_Store
+desktop.ini
